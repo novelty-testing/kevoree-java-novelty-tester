@@ -21,6 +21,15 @@
             <artifactId>org.kevoree.api</artifactId>
             <version>${kevoree.version}</version>
         </dependency>
+        <dependency>
+            <!--
+                This is hosted nowhere: you HAVE TO compile it locally for now
+                git clone https://github.com/novelty-testing/novelty-tester.git
+                -->
+            <groupId>fr.inria.diverse.noveltytesting</groupId>
+            <artifactId>novelty-tester</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

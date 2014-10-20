@@ -16,6 +16,7 @@
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-runtime:0.8.11" level="project" />
     <orderEntry type="library" name="Maven: org.kevoree.kcl:org.kevoree.kcl:19" level="project" />
     <orderEntry type="library" name="Maven: org.kevoree.log:org.kevoree.log:1" level="project" />
+    <orderEntry type="library" name="Maven: fr.inria.diverse.noveltytesting:novelty-tester:1.0.0-SNAPSHOT" level="project" />
   </component>
 </module>
 
