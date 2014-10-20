@@ -1,4 +1,4 @@
-package kevoree;
+package fr.inria.diverse.noveltytesting;
 
 import org.kevoree.annotation.*;
 
