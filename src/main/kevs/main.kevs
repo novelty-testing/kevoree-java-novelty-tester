@@ -1,5 +1,5 @@
 add node0 : JavaNode
-add node0.tester : NoveltyTester
+add node0.tester : fr.inria.diverse.noveltytesting.NoveltyTester
 add sync : WSGroup
 
 attach node0 sync
