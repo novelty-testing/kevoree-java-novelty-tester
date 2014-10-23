@@ -1,5 +1,19 @@
+// node platform
 add node0 : JavaNode
-add node0.tester : fr.inria.diverse.noveltytesting.NoveltyTester
-add sync : WSGroup
 
+// Novelty Tester Kevoree Component
+add node0.tester : fr.inria.diverse.noveltytesting.NoveltyTester
+
+// Components under test
+add node0.calc : Calculator
+
+// sync group
+add sync : WSGroup/5.1.1-SNAPSHOT
 attach node0 sync
+
+// services channel
+add chan : AsyncBroadcast
+
+bind node0.tester.remoteService chan
+bind node0.calc.sum chan
+bind node0.calc.isPositive chan
