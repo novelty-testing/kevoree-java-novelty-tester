@@ -1,5 +1,5 @@
 // node platform
-add node0 : JavaNode
+add node0 : JavaNode/5.1.1-SNAPSHOT
 
 // Novelty Tester Kevoree Component
 add node0.tester : fr.inria.diverse.noveltytesting.NoveltyTester
