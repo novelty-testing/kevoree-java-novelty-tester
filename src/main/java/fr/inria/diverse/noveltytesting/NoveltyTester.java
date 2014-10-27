@@ -20,7 +20,7 @@ public class NoveltyTester {
     public void start() {
         ModelGeneration gen = new ModelGenerationImpl();
         try {
-            Class<?> clazz = Class.forName("org.kevoree.library.Calculator");
+            Class<?> clazz = Class.forName("org.kevoree.library.ICalculator");
             Interface i = gen.generateModel(clazz);
             gen.generateData(i);
             i.accept(new InputOutputVisitor());

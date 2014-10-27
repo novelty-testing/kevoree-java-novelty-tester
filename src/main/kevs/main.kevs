@@ -1,8 +1,10 @@
+include mvn:fr.inria.diverse.noveltytesting:kevoree-java-novelty-tester:0.0.1-SNAPSHOT
+
 // node platform
 add node0 : JavaNode/5.1.1-SNAPSHOT
 
 // Novelty Tester Kevoree Component
-add node0.tester : fr.inria.diverse.noveltytesting.NoveltyTester
+add node0.tester : fr.inria.diverse.noveltytesting.NoveltyTester/0.0.1-SNAPSHOT
 
 // Components under test
 add node0.calc : Calculator
